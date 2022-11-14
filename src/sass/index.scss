@@ -1,5 +1,5 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(236, 218, 56);
 }
 
 .search-form {
@@ -33,4 +33,34 @@ img {
   display: flex;
   flex-grow: 1;
   padding: 5px;
+}
+
+.search-form {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(36, 36, 197);
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.search-form input {
+  padding-left: 10px;
+  height: 35px;
+  width: 300px;
+  font-size: 20px;
+  border-color: rgb(229, 245, 14);
+  border-radius: 10px;
+}
+
+.gallery {
+  padding: 10px;
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -10px;
+  margin-left: -10px;
 }
